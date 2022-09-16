@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(178, 124, 227);
+    padding: 12px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    color: rgb(222, 222, 222);
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
