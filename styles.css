@@ -115,11 +115,12 @@ li a:hover::after {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 300px;
 }
 
 .contents_2_title {
     text-align: center;
-    padding: 15px 0;
+    padding-bottom: 20px;
 
 }
 
