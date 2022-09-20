@@ -10,7 +10,10 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url("./images/wallpaperbetter.jpg");
-    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Navigation Bar Start */
@@ -161,6 +164,22 @@ li a:hover::after {
     height: auto;
     display: flex;
     flex-direction: column;
+    transition: all .2s ease-in-out;
+
+}
+
+.column:hover {
+    transform: translateY(-8px);
+
+}
+
+.column p {
+    opacity: 0;
+    transition: all .2s ease-in-out;
+}
+
+.column:hover p {
+    opacity: 1;
 }
 
 
@@ -171,7 +190,7 @@ li a:hover::after {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: gainsboro;
+    background-color: rgba(220, 220, 220, 0.68);
 }
 
 .contents_3_quote {
@@ -211,7 +230,6 @@ li a:hover::after {
     background-color: #e558d9;
     border-radius: 8px;
     padding: 45px;
-
     color: white
 }
 
