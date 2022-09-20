@@ -25,9 +25,17 @@ body {
     /* border: 3px solid rgb(30, 255, 0); */
 }
 
+.header img {
+    width: 50px;
+    height: auto;
+}
+
 .menu_title {
     font-size: 13px;
-    color: #fff
+    color: #fff;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 ul {
@@ -99,7 +107,6 @@ li a:hover::after {
 
 }
 
-.header_img {}
 
 .contents_1 button {
     background-color: #b44bab;
@@ -114,7 +121,8 @@ li a:hover::after {
 
 .contents_1 button:hover,
 .modal_right button:hover {
-    background-color: rgb(71, 16, 122)
+    background-color: rgb(231, 211, 250);
+    color: #1F2837;
 }
 
 
@@ -125,7 +133,7 @@ li a:hover::after {
     flex-direction: column;
     justify-content: center;
     height: 400px;
-    /* border: 2px solid red; */
+    color: white
 }
 
 .contents_2_title {
@@ -134,11 +142,14 @@ li a:hover::after {
 
 }
 
+.contents_2_gallery p {
+    padding-top: 5px;
+}
+
 .contents_2_gallery {
     display: flex;
     justify-content: center;
     gap: 50px;
-    /* border: 2px solid green; */
     text-align: center;
     padding-bottom: 40px;
 
@@ -146,7 +157,7 @@ li a:hover::after {
 
 .contents_2_gallery img {
     border-radius: 5%;
-    border: 5px solid rgb(71, 16, 122);
+    border: 3px solid purple;
 }
 
 .column {
@@ -233,6 +244,10 @@ li a:hover::after {
     justify-content: center;
     align-items: center;
     height: 100px;
-    background-color: rgb(178, 124, 227);
-    color: white
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
 }
