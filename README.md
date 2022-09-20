@@ -1,5 +1,4 @@
 # landing-page
 TheOdinProject Landing Page.
 
-
-<img width="1099" alt="image" src="https://user-images.githubusercontent.com/66011769/191165484-92786704-55c5-4c29-9f34-ba2bcc06940f.png">
+<img width="1128" alt="image" src="https://user-images.githubusercontent.com/66011769/191165709-b0beb4ee-f5b5-468e-9b5a-5a9c083ad8bd.png">
