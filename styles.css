@@ -222,4 +222,11 @@ li a:hover::after {
 
 /* Footer Start */
 
-.footer {}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(178, 124, 227);
+    color: white
+}
