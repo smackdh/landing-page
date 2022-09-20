@@ -102,9 +102,11 @@ li a:hover::after {
     border-radius: 5px;
     border-style: none;
     margin-top: 10px;
+    box-shadow: 0px 0px 5px 1px purple;
 }
 
-.contents_1 button:hover {
+.contents_1 button:hover,
+.modal_right button:hover {
     background-color: rgb(71, 16, 122)
 }
 
@@ -182,3 +184,42 @@ li a:hover::after {
 
 
 /* Contents_4 start */
+
+.contents_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.contents_4_modal {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    flex-wrap: wrap;
+    background-color: #e558d9;
+    border-radius: 8px;
+    padding: 45px;
+
+    color: white
+}
+
+.contents_4 .modal_right {
+    display: flex;
+    align-self: flex-end;
+}
+
+.modal_right button {
+    background-color: #b44bab;
+    color: white;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0px 0px 5px 1px purple;
+    margin-top: 10px;
+}
+
+/* Footer Start */
+
+.footer {}
