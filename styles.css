@@ -9,7 +9,7 @@ body {
     font-family: 'Rubik', sans-serif;
     display: flex;
     flex-direction: column;
-    background-image: url("/images/wallpaperbetter.jpg");
+    background-image: url("./images/wallpaperbetter.jpg");
     background-attachment: scroll;
 }
 
